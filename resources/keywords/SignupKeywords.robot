@@ -14,4 +14,5 @@ Create New User
     Enter DOB - Date-Month-Year    ${day}    ${month}    ${year}
     Enter user details    SAhil    Dholpuria
     Company Detail    Cyntexa
-    Address Detail    'dholpuria colony'    Rajasthan    331024    9166276171
+    Address Detail    'dholpuria colony'    Rajasthan    331024    9166276171    Jaipur
+    Create account

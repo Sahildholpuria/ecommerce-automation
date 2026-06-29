@@ -25,5 +25,8 @@ ${LastName_L}    xpath=//input[@id='last_name']
 ${CompanyName_L}    xpath=//input[@id='company']
 ${Address_L}    xpath=//input[@id='address1']
 ${State_L}    xpath=//input[@id='state']
+${City_L}    xpath=//input[@data-qa='city']
 ${ZipCode_L}    xpath=//input[@id='zipcode']
 ${MobileNumber_L}    xpath=//input[@id='mobile_number']
+
+${CreateAccountButton_L}    xpath=//button[@data-qa='create-account']

@@ -47,8 +47,12 @@ Company Detail
     Input Text    ${CompanyName_L}    ${Cname}
 
 Address Detail
-    [Arguments]    ${ADDres}    ${state}    ${zipcode}    ${mob}
+    [Arguments]    ${ADDres}    ${state}    ${zipcode}    ${mob}    ${city}
     Input Text    ${Address_L}    ${ADDres}
     Input Text    ${State_L}    ${state}
     Input Text    ${ZipCode_L}    ${zipcode}
     Input Text    ${MobileNumber_L}    ${mob}
+    Input Text    ${City_L}    ${city}
+
+Create account
+    Click Button    ${CreateAccountButton_L}
