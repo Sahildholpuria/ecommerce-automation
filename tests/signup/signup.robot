@@ -15,4 +15,3 @@ Verify Create an New Account with valid details
     [Tags]    signup    positive
     Create New User    'Sahil Dholpuria'    dholpuria1999@gmail.com    Mr    Root@123    1    May    2001
     
-    Sleep    10s
